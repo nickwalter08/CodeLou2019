@@ -28,16 +28,16 @@
               <p class="lead">We provide the greatest care with a safe and fun environment for children of all ages. CURRENTLY ENROLLING! To schedule a tour of our wonderful location, click on the link below to begin. We hope to see you soon! <br>(Rush'em On In is a Limited Liability Company) </p>
               
               <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary center" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary center" data-toggle="modal" data-target="#appointment">
     Make an Appointment
   </button>
   
   <!-- Modal (cannot use fade due to IE not supporting)-->
-  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal" id="appointment" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title center" id="exampleModalLabel">Make an Appointment</h5>
+          <h5 class="modal-title center" id="modalLabel">Make an Appointment</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -47,18 +47,17 @@
             <form class="needs-validation" novalidate>
                 <div class="form-row">
                   <div class="col-md-4 mb-3">
-                    <label for="validationCustom01">First name</label>
+                    <label for="validationCustom01">Full Name</label>
                     <input type="text" class="form-control" id="validationCustom01" value="" required>
                   </div>
                   <div class="col-md-4 mb-3">
-                    <label for="validationCustom02">Last name</label>
+                    <label for="validationCustom02">Phone Number</label>
                     <input type="text" class="form-control" id="validationCustom02" value="" required>
                   </div>
                   <div class="col-md-4 mb-3">
-                    <label for="validationCustomPhonenumber">Phone Number</label>
+                    <label for="validationCustomPhonenumber">Email</label>
                     <div class="input-group">
                       <div class="input-group-prepend">
-                        <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
                       </div>
                       <input type="text" class="form-control" id="validationCustomPhonenumber" aria-describedby="inputGroupPrepend" required>
                     </div>
@@ -78,7 +77,7 @@
                     <input type="text" class="form-control" id="validationCustom05" required>
                   </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button class="btn btn-primary" onclick="myFunction()" type="submit">Submit form</button>
               </form>
         </div>
         <div class="modal-footer">
