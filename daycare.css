@@ -23,11 +23,11 @@ body {
   .cover-heading,
   .lead {
     color: rgba(0, 255, 255, 0.616);
-    text-shadow: 1px 1px purple;
+    text-shadow: 1.5px 1.5px purple;
   }
 
   .footer {
-    position: fixed;
+    margin-top: 5%;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -41,17 +41,75 @@ body {
   }
 
 
-
 /* MEDIA QUERIES */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (max-width: 768px) {
+  .btn {
+    font-size:5px;
+    padding:6px 12px;
+  }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+  .lead {
+    font-size: 100%;
+  }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+  .footer {
+  font-size: 80%;
+}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+.cover-heading {
+  font-size: 80%;
+}
+
+.nav {
+    margin: 0 0 0 5%;
+    padding: -25px 1%;
+    margin-bottom: 25px;
+}
+
+nav li:first-child a {
+  margin-left: 0;
+}
+
+nav li:last-child a {
+  margin-right: 0;
+}
+}
+
+
+@media (min-width: 768px) {
+  .btn {
+    font-size:12px;
+    padding:6px 12px;
+  }
+
+
+  .nav {
+    margin: 0 0 0 5%;
+    padding: -25px 1%;
+    margin-bottom: 0;
+}
+
+nav li:first-child a {
+  margin-left: 0;
+}
+
+nav li:last-child a {
+  margin-right: 0;
+}
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size:14px;
+    padding:8px 12px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:10px 16px;
+    font-size:18px;
+  }
+}
