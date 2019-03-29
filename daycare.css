@@ -3,7 +3,8 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: black;
-}
+    font-family: 'Heebo' sans-serif;
+  }
 
 .center {
     display: block;
@@ -11,6 +12,34 @@ body {
     margin-right: auto;
     width: 50%;
   }
+
+  .nav {
+    background-color: DarkViolet;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+  }
+
+  .cover-heading,
+  .lead {
+    color: rgba(0, 255, 255, 0.616);
+    text-shadow: 1px 1px purple;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(0, 255, 255, 0.616);
+    text-shadow: 1px 1px purple;
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 5%;
+  }
+
 
 
 /* MEDIA QUERIES */
