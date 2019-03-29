@@ -1,3 +1,7 @@
-// screen.addEventListener("orientationchange", function () {
-//     console.log("The orientation of the screen is: " + screen.orientation);
-//   });
+// COLOR EFFECT TO NAV LINKS
+
+$("a").hover(function(){
+    $(this).css("background-color", "CornflowerBlue");
+    }, function(){
+    $(this).css("background-color", "DarkViolet");
+  });
